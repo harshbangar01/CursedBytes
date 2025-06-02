@@ -1,0 +1,2 @@
+# CursedBytes
+a cursed website
