@@ -183,7 +183,7 @@ footer .content{
         line-height: 1em;
     }
 }
-@media screen and (max-width: 1023px){
+/* @media screen and (max-width: 1023px){
     header img{
         height: unset;
         width: 100%;
@@ -211,7 +211,7 @@ footer .content{
         display: block;
         margin-bottom: 100px;
     }
-}
+} */
 
 .autoRotate{
     animation: autoRotateAnimation;
@@ -261,4 +261,88 @@ footer .content{
     align-items: center;
     font-size: 2em;
     color: #ffffffb2;
+}
+
+@media (max-width: 768px) {
+   .banner .content h1 {
+        font-size: 3em;
+    }
+    .banner .content .right h2 {
+        font-size: 3em;
+    }
+    .grid-1 h2:nth-child(3) {
+        font-size: 2em;
+    }
+    .grid-2 div:nth-child(1) {
+        grid-row: 2;
+    }
+    .grid-2 div:nth-child(3) {
+        grid-row: 6;
+    }
+    .grid-2 div:nth-child(4) {
+        grid-row: 5;
+    }
+
+    .banner .image img {
+        height: 90%;
+        width: 140%;
+        bottom: 0;
+    }
+
+    .grid-3 {
+        font-size: 2em;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .grid-5 {
+        --row: 3;
+        font-size: 1.2em;
+    }
+    .grid-5 div:nth-child(1) {
+        grid-row: 1;
+        grid-column: 1 / 2;
+    }
+    .grid-5 div:nth-child(2) {
+        grid-row: 1;
+        grid-column: 2 / 3;
+    }
+    .grid-5 div:nth-child(3) {
+        grid-row: 2;
+        grid-column: 1 / 3;
+    }
+    .grid-5 div:nth-child(4) {
+        grid-row: 2;
+        grid-column: 2 / 3;
+    }
+    .grid {
+        display: block;
+    }
+    .grid figure img {
+        height: 100%;
+        width: 100%;
+    }
+    .grid figure {
+        margin-bottom: 20px;
+    }
+    .grid-1 figure:nth-child(1) {
+        grid-column: 1 / 7;
+        grid-row: 1;
+    }
+    .grid-1 figure:nth-child(2) {
+        grid-column: 1 / 7;
+        grid-row: 2;
+    }
+    .figure img {
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .thought {
+        font-size: larger;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+    }
 }
