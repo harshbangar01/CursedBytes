@@ -254,3 +254,11 @@ footer .content{
         filter: blur(40px);
     }
 }
+
+.thought{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    color: #ffffffb2;
+}
